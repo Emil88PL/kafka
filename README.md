@@ -1,4 +1,4 @@
 # Kafka
-Set up kafka on Windows:
+Set up kafka (Windows):
 
 ![Setup Kafka Windows](/img/Kafka-setup.png "Setup Kafka")
