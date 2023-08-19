@@ -11,4 +11,8 @@ public class KafkaListeners {
         System.out.println("Listener recived: " + data);
     } 
     
+     @KafkaListener(topics = "myTopic", groupId = "groID")
+    void listerner2(String data) {
+        System.out.println("Listener2 recived: " + data);
+    } 
 }
