@@ -10,7 +10,12 @@ public class KafkaApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(KafkaApplication.class, args);
 
+
+
+
         KafkaProducerService producerService = context.getBean(KafkaProducerService.class);
-        producerService.sendMessage("message with Hi!");
+        producerService.sendMessage("say Hi!");
+        producerService.sendMessage("other message with time?!");
+
     }
 }
